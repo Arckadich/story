@@ -10,5 +10,5 @@ def number_of_line(*files):
             r = len(value)
             f.writelines(f'\n{key}')
             f.writelines(f'\n{r}\n')
-            # f.writelines(value)
+            f.writelines(value)
 number_of_line('1.txt', '2.txt', '3.txt')
